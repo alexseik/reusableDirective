@@ -1,0 +1,11 @@
+<div class="usuario">
+  <img ng-src="{{user.face}}">
+  <h2>{{user.name}}</h2>
+  <p>{{user.lastText}}</p>
+  <i class="icon ion-chevron-right icon-accessory"></i>
+  <div ng-if="inList">
+    <ion-option-button class="button-assertive" >
+      Delete
+    </ion-option-button>
+  </div>
+</div>
